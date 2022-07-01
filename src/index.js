@@ -14,7 +14,7 @@ import {user_router} from './routers/users.js'
 import {task_router} from './routers/tasks.js'
 
 const app = express()
-const port = process.env.port
+const port = process.env.PORT
 
 //express middleware 
 //Middleware : (New Request => Do some ops(like authenticating) => call route handler)
